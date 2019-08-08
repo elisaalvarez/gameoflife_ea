@@ -1,5 +1,7 @@
 require "bundler/setup"
-require "gameoflife_ea"
+require "gameoflife_ea/cell"
+require "gameoflife_ea/world"
+require "gameoflife_ea/rules"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
